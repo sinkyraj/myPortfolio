@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  float: right;
+  margin-left: 500px;
+}
+
+body {
+  background-color: paleturquoise;
+}
+
+#navcolor {
+  background-color: lightsalmon;
+  /* text-align: right; */
+}
+
+#navbarlink {
+  color: brown;
+}
+
+#float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* #mb-3 {
+  background-color: black;
+} */
+
+#container {
+  /* margin-top: 60px;
+  font-family: 'Roboto', sans-serif; */
+  width: 900px;
+  height: 550px;
+  background-color: wheat;
+  float: left;
+  margin-left: 300px;
+}
+
+
+#contact {
+  /* margin-top: 60px;
+  font-family: 'Roboto', sans-serif; */
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  /* float: center; */
+  /* text-align: center; */
+  margin-left: 370px;
+  border: solid black 1px;
+}
+
+#center {
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin-top: 600px;
+}
+
+h3 {
+  color: brown;
+  font-family: 'Gill Sans'
+}
+
+#aboutme {
+  width: 350px;
+  height: 100px;
+  /* border: solid red 4px; */
+  margin-left: 70px;
+  margin-top: 40px
+}
+
+hr {
+  width: 650px;
+  /* color: solid red 4px; */
+}
+
+img {
+  width: 370px;
+}
+
+#image {
+  display: inline-block;
+}
+
+#paragraph {
+  display: inline-block;
+}
+
+#button {
+  color: coral;
+  margin-left: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+/* .Portfolio {
+  width: 100%;
+  height: 1000px;
+  border-color: solid black 5px;
+  background: ;
+} */
+
+/* .Portfolio img {
+  
+  width: 30%;
+} */
+
+/* .Portfolio img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+  width: 30%;
+} */
+
+/* 
+------------------------------------------------------------------------------------ */
+
+.Hawai {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  /* grid-template-columns: 1fr 2fr 2fr; */
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.LakeForest {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 2%;
+}
+
+.Irvine {
+  grid-column: 2;
+  grid-row: 2;
+  padding: 2%;
+}
+
+.Newyork {
+  grid-column: 2;
+  grid-row: 3;
+  padding: 2%;
+}
+
+.LakeForestpara {
+  grid-column: 3;
+  grid-row: 1;
+  padding: 2%;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Gill Sans';
+  color: brown;
+  margin-right: 70px;
+}
+
+.Hawai img {
+  width: 90%;
+}
+
+.Irvinepara {
+  grid-column: 3;
+  grid-row: 2;
+  padding: 2%;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Gill Sans';
+  color: brown;
+  margin-right: 70px;
+}
+
+.Newyorkpara {
+  grid-column: 3;
+  grid-row: 3;
+  padding: 2%;
+  text-align: center;
+  margin-top: 100px;
+  /* border: solid red 4px; */
+  font-family: 'Gill Sans';
+  color: brown;
+  margin-right: 70px;
+}
+
+.LakeForestheader {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 2%;
+  text-align: center;
+  margin-top: 100px;
+  /* border: solid red 4px; */
+  font-family: 'Gill Sans';
+  color: brown;
+  /* margin-right: 400px; */
+}
+
+.Irvineheader {
+  grid-column: 1;
+  grid-row: 2;
+  padding: 2%;
+  text-align: center;
+  margin-top: 100px;
+  /* border: solid red 4px; */
+  font-family: 'Gill Sans';
+  color: brown;
+  /* margin-right: 300px; */
+}
+
+.Newyorkheader {
+  grid-column: 1;
+  grid-row: 3;
+  padding: 2%;
+  text-align: center;
+  margin-top: 100px;
+  /* border: solid red 4px; */
+  font-family: 'Gill Sans';
+  color: brown;
+  /* margin-right: 300px; */
+}
+
+#myprofile {
+  /* border: solid red 4px; */
+  margin-left: 400px;
+  font-family: 'Gill Sans';
+  margin-top: 20px;
+}
+
+#myname {
+  /* background-color: indianred; */
+  /* border: 2px solid black; */
+  /* margin-left: 270px; */
+  color: crimson;
+  margin-left: 600px;
+}
+
+#imgtext {
+  font-family: 'Gill Sans';
+  color: brown;
+  position: absolute;
+  top: 70%;
+  left: 30%
+}
+
+#imgtext:hover {
+  transition: width 2s;
+  display: none;
+}
+
+#Footercolor {
+  background-color: saddlebrown;
+}
+
+#Card {
+  height: 400px;
+  width: 550px;
+  background-color: rgb(197, 197, 209);
+  margin-left: 870px;
+}
