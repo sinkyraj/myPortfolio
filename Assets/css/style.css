@@ -41,7 +41,6 @@ body {
   margin-left: 300px;
 }
 
-
 #contact {
   /* margin-top: 60px;
   font-family: 'Roboto', sans-serif; */
@@ -261,4 +260,8 @@ img {
   width: 550px;
   background-color: rgb(197, 197, 209);
   margin-left: 870px;
+}
+
+.changenamecolor {
+  color:blue;
 }
